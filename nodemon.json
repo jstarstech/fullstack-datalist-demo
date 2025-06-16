@@ -1,0 +1,19 @@
+{
+    "restartable": "rs",
+    "ignore": [
+        ".git",
+        ".vscode",
+        "node_modules/",
+        "static/",
+        "frontend/"
+    ],
+    "watch": [
+        "src/"
+    ],
+    "execMap": {
+    },
+    "env": {
+        "NODE_ENV": "development"
+    },
+    "ext": "js,json"
+}
